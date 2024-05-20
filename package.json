@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "description": "The Node.js package for NevoAI using TypeScript.",
   "main": "src/index.ts",
+  "type": "commonjs",
   "scripts": {
     "build": "tsc"
   },
@@ -31,6 +32,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "nevo-ai": "^1.0.4",
     "node-fetch": "^3.3.2"
   }
 }
