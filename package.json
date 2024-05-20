@@ -1,6 +1,6 @@
 {
   "name": "nevo-ai",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The Node.js package for NevoAI using TypeScript.",
   "main": "src/index.ts",
   "scripts": {
