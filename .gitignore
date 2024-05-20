@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.npm/
+# TypeScript cache
+*.tsbuildinfo
+# Environment variables file
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+.vscode/
+
+# npm package lock file (if you use npm)
+package-lock.json
+
