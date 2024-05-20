@@ -15,11 +15,9 @@ export async function ask({ apiKey, prompt }: FetchAIOptions): Promise<any> {
                 'Content-Type': 'application/json'
             }
         });
-
         if (!response.ok) {
             throw new Error(`Error: ${response.statusText}`);
         }
-
         const data = await response.json();
         return data;
     } catch (error) {

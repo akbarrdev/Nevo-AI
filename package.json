@@ -1,19 +1,29 @@
 {
   "name": "nevo-ai",
-  "version": "1.0.2",
-  "description": "The node package for NevoAI",
-  "main": "index.js",
+  "version": "1.0.3",
+  "description": "The Node.js package for NevoAI using TypeScript.",
+  "main": "src/index.ts",
   "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [
     "ai",
     "nevo",
+    "api",
+    "botwa",
+    "discordjs",
     "teamnevolution"
   ],
+  "bugs": {
+    "url": "https://github.com/akbarrdev/Nevo-AI/issues"
+  },
   "author": "akbarrdev",
-  "license": "ISC",
+  "license": "WTFPL",
+  "homepage": "https://github.com/akbarrdev/Nevo-AI",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akbarrdev/Nevo-AI.git"
+  },
   "devDependencies": {
     "@types/node": "^20.12.12",
     "@types/node-fetch": "^2.6.11",
