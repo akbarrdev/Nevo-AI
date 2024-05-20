@@ -5,7 +5,7 @@ interface FetchAIOptions {
     prompt: string;
 }
 
-export async function nevo({ apiKey, prompt }: FetchAIOptions): Promise<any> {
+export async function ask({ apiKey, prompt }: FetchAIOptions): Promise<any> {
     const endpoint = `https://ai.nevolution.team/nevo?apikey=${encodeURIComponent(apiKey)}&prompt=${encodeURIComponent(prompt)}`;
 
     try {
