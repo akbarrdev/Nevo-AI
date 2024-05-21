@@ -12,14 +12,8 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
   await m.reply(wait);
 
   try {
-    const input = [
-      {
-        role: "user",
-        content: text,
-      },
-    ];
-    const data = await blackbox.chat(input, "Realtime", true);
-    if (data) await m.reply(data);
+    const data = await nevo.ask({apikey: "YOUR-APIKEY", prompt: input});
+    if (data) await m.reply(data.result);
   } catch (e) {
     await m.reply(eror);
   }
