@@ -1,12 +1,9 @@
 {
   "name": "nevo-ai",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "The Node.js package for NevoAI.",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "type": "commonjs",
-  "scripts": {
-    "build": "tsc"
-  },
   "keywords": [
     "ai",
     "nevo",
